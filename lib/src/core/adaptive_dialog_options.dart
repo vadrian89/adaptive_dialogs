@@ -14,7 +14,7 @@ class MaterialDialogOptions {
   final TextStyle? contentTextStyle;
 
   /// See [AlertDialog.actionsPadding].
-  final EdgeInsetsGeometry actionsPadding;
+  final EdgeInsetsGeometry? actionsPadding;
 
   /// See [AlertDialog.actionsAlignment].
   final MainAxisAlignment? actionsAlignment;
@@ -58,7 +58,7 @@ class MaterialDialogOptions {
     this.clipBehavior = Clip.none,
     this.titleTextStyle,
     this.contentTextStyle,
-    this.actionsPadding = EdgeInsets.zero,
+    this.actionsPadding,
     this.actionsAlignment,
     this.actionsOverflowDirection,
     this.actionsOverflowButtonSpacing,

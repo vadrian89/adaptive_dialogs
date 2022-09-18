@@ -83,7 +83,8 @@ class SimpleAdaptiveDialog extends StatelessWidget {
         actionsAlignment: materialOptions.actionsAlignment,
         actionsOverflowButtonSpacing: materialOptions.actionsOverflowButtonSpacing,
         actionsOverflowDirection: materialOptions.actionsOverflowDirection,
-        actionsPadding: materialOptions.actionsPadding,
+        actionsPadding:
+            materialOptions.actionsPadding ?? (kIsWeb ? const EdgeInsets.only(bottom: 8) : null),
         alignment: materialOptions.alignment,
         backgroundColor: materialOptions.backgroundColor,
         buttonPadding: materialOptions.buttonPadding,

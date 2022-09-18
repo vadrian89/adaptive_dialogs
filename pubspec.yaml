@@ -1,7 +1,7 @@
 name: adaptive_dialogs
 description: A new Flutter package project.
-version: 0.0.1
-homepage:
+version: 0.0.2
+homepage: https://github.com/vadrian89/adaptive_dialogs
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
